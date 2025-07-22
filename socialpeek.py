@@ -3,7 +3,7 @@ import argparse
 
 def check_username(username):
     platforms = {
-        "Twitter": f"https://twitter.com/{username}",
+       "Twitter": f"https://twitter.com/{username}",
         "Instagram": f"https://www.instagram.com/{username}/",
         "Facebook": f"https://www.facebook.com/{username}",
         "GitHub": f"https://github.com/{username}",
@@ -11,7 +11,19 @@ def check_username(username):
         "TikTok": f"https://www.tiktok.com/@{username}",
         "Pinterest": f"https://www.pinterest.com/{username}/",
         "YouTube": f"https://www.youtube.com/{username}",
-        "LinkedIn": f"https://www.linkedin.com/in/{username}/"
+        "LinkedIn": f"https://www.linkedin.com/in/{username}/",
+        "Tumblr": f"https://{username}.tumblr.com",
+        "Twitch": f"https://www.twitch.tv/{username}",
+        "SoundCloud": f"https://soundcloud.com/{username}",
+        "DeviantArt": f"https://www.deviantart.com/{username}",
+        "Medium": f"https://medium.com/@{username}",
+        "Vimeo": f"https://vimeo.com/{username}",
+        "Product Hunt": f"https://www.producthunt.com/@{username}",
+        "Koo": f"https://www.kooapp.com/profile/{username}",
+        "Blogger": f"https://{username}.blogspot.com",
+        "Flickr": f"https://www.flickr.com/people/{username}",
+        "Steam": f"https://steamcommunity.com/id/{username}",
+        "Quora": f"https://www.quora.com/profile/{username}"
     }
 
     headers = {
